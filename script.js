@@ -75,9 +75,6 @@ window.__siteLoaded = (() => {
       actions: [
         { label: "Shipped!", variant: "ghost" },
       ],
-      sponsors: [
-        { tagline: "Our unlimited diet coke sponsor", logo: "sponsors/cohort-00/diet-coke.svg", alt: "team.shiksha", size: "lg", url: "https://team.shiksha/" },
-      ],
       photos: [
         "villas/cohort-00/fa1983ea-a554-4e9e-a35b-f606330f3490.JPG",
         "villas/cohort-00/IMG_1115.jpg",
@@ -101,7 +98,7 @@ window.__siteLoaded = (() => {
       title: "CRACKED HACKER HOUSE",
       sub:   'Cohort C1 · <span class="house-marker__sub-status">Shipped!</span>',
       loc:   "Da Nang, Vietnam",
-      cam:       { lon: 108.26627, lat: 16.07186, zoom: 12.8, pitch: 45, bearing: 119.7 },
+      cam:       { lon: 108.26833, lat: 16.0636,  zoom: 12.8, pitch: 45, bearing: 120 },
       camMobile: { lon: 108.2348,  lat: 16.0548,  zoom: 12.8, pitch: 45, bearing: 118 },
       anchor:    { lon: 108.2405,  lat: 16.0560 },
       apps:  { label: "applications closed", range: "Cohort 1 · shipped", status: "closed" },
@@ -109,13 +106,6 @@ window.__siteLoaded = (() => {
       heroDesc:  "Fourteen cracked builders, one house, thirty days in Da Nang. Team1 sponsored fellows with grants to build, and the director of Da Nang's startup program came through for demo day to see what the house had shipped.",
       actions: [
         { label: "Shipped!", variant: "ghost" },
-      ],
-      sponsors: [
-        { tagline: "Our content sponsors", logos: [
-          { logo: "sponsors/sponsor-1.png",      alt: "Team1",   size: "sm", url: "https://x.com/Team1VN" },
-          { logo: "sponsors/boardy-favicon.png", alt: "Boardy",  size: "md", url: "https://boardy.ai/" },
-        ] },
-        { tagline: "Our credits sponsors", logo: "sponsors/razorpay.png", alt: "Razorpay", size: "md", url: "https://razorpay.com/" },
       ],
       photos: [
         "villas/cohort-01/01.jpg",
@@ -135,36 +125,33 @@ window.__siteLoaded = (() => {
       blurb: "Sleep is optional in this house, but shipping and having fun is undeniable.",
     },
     {
-      // ---- C2 · BALI (moved up — next cohort, Sep 2026) --------------------
+      // ---- C2 · BANGKOK (next cohort, October 2026) ------------------------
       id: "02",
-      badge: 'Cohort 2, Canggu, Bali <span class="hero__cohort-sep">|</span> <span class="hero__cohort-status hero__cohort-status--open">Applications open!</span>',
+      badge: 'Cohort 2, Bangkok, Thailand <span class="hero__cohort-sep">|</span> <span class="hero__cohort-status hero__cohort-status--open">Applications open!</span>',
       title: "CRACKED HACKER HOUSE",
-      sub:   "1st September · 10 Fellows · 30 Days",
-      loc:   "Canggu, Bali",
-      cam:       { lon: 115.15711, lat: -8.65566, zoom: 12.8, pitch: 45, bearing: 136.2 },
-      camMobile: { lon: 115.1310,  lat: -8.6575,  zoom: 12.8, pitch: 45, bearing: 135.9 },
-      anchor:    { lon: 115.1285,  lat: -8.6573 },
-      apps:  { label: "applications open", range: "Rolling · house starts 1st Sep", status: "open" },
-      ctaLabel: "Apply C2",
+      sub:   "1st October · 10 Private Beds · 30 Days",
+      loc:   "Bangkok, Thailand",
+      cam:       { lon: 100.52982, lat: 13.76429, zoom: 12.8, pitch: 45, bearing: 136.3 },
+      camMobile: { lon: 100.5018, lat: 13.7563, zoom: 12.8, pitch: 45, bearing: 135.9 },
+      anchor:    { lon: 100.5018, lat: 13.7563 },
+      apps:  { label: "applications open", range: "Rolling · house starts 1st Oct", status: "open" },
+      ctaLabel: "Apply for 🇹🇭",
       tally: "https://tally.so/r/A7yDE0",
-      heroTitle: { a: "10 Fellows.", b: "30 days.", c: "<em>Bali 🇮🇩.</em>" },
-      heroDesc:  "Starts 1st September. One huge Canggu villa, ten cracked fellows, thirty days of shipping: good wifi, bad sleep schedules, and demo days that end in the ocean instead of a pitch deck. Compute credits, sponsor intros, scooters at the gate, and thousands in OpenAI + Anthropic grants for the builders in this house, announcing soon.",
+      heroTitle: { a: "10 fellows", b: "30 days", c: "<em>Bangkok 🇹🇭</em>" },
+      heroDesc:  "on weekdays: build whatever you're obsessed with.<br><br>on weekends: YC founders + investors, AMAs, hackathons, games and Bangkok.<br><br>PS5 is included.<br>fun is mandatory.<br><br>at the end of the month, we host Demo Day and show everyone what happened when we put 10 ambitious people in one house.",
       actions: [
-        { label: "Apply C2", variant: "primary", arrow: true, href: "https://tally.so/r/A7yDE0" },
-      ],
-      sponsors: [
-        { tagline: "Thousands of OpenAI credits", logo: "sponsors/openai.png", alt: "OpenAI", size: "md", url: "https://openai.com/" },
+        { label: "Apply for 🇹🇭", variant: "primary", arrow: true, href: "https://tally.so/r/A7yDE0" },
       ],
       photos: [
-        "villas/cohort-03/01.png", "villas/cohort-03/02.png", "villas/cohort-03/03.png", "villas/cohort-03/04.png",
-        "villas/cohort-03/05.png", "villas/cohort-03/06.png", "villas/cohort-03/07.png", "villas/cohort-03/08.png",
+        "villas/cohort-02-bangkok/01.png?v=2", "villas/cohort-02-bangkok/02.png?v=2", "villas/cohort-02-bangkok/03.png?v=2", "villas/cohort-02-bangkok/04.png?v=2",
+        "villas/cohort-02-bangkok/05.png?v=2", "villas/cohort-02-bangkok/06.png?v=2", "villas/cohort-02-bangkok/07.png?v=2", "villas/cohort-02-bangkok/08.png?v=2",
       ],
       stats: [
         { value: "10", label: "fellows" },
         { value: "30", label: "days" },
-        { value: "1",  label: "huge villa" },
+        { value: "10", label: "private beds" },
       ],
-      blurb: "Ten cracked fellows, one huge Canggu villa, this September. Thousands in OpenAI + Anthropic grants for the builders in this house, announcing soon.",
+      blurb: "Ten fellows, ten private beds, and 30 days in Bangkok from October 1. Weekend AMAs with YC founders and investors, ending with Demo Day.",
     },
     {
       // ---- C3 · DUBAI (moved back — dates to be announced) -----------------
@@ -180,11 +167,10 @@ window.__siteLoaded = (() => {
       ctaLabel: "Apply C3",
       tally: "https://tally.so/r/VLNzGJ",
       heroTitle: { a: "30 days.", b: "16 cracked founders.", c: "<em>Dubai.</em>" },
-      heroDesc:  "Next up after Bali. $500 buys a bed, a seat at the workstation, and 30 days next to sixteen cracked builders in a Dubai villa 10 minutes from the Burj Khalifa. Compute credits, founder dinners, sponsor intros, and demo days that end in the ocean. Exact dates dropping soon.",
+      heroDesc:  "Next up after Bangkok. $500 buys a bed, a seat at the workstation, and 30 days next to sixteen cracked builders in a Dubai villa 10 minutes from the Burj Khalifa. Founder dinners, investor conversations, and a closing Demo Day. Exact dates dropping soon.",
       actions: [
         { label: "Apply C3", variant: "primary", arrow: true, href: "https://tally.so/r/VLNzGJ" },
       ],
-      sponsors: [],
       photos: [
         "villas/cohort-02/245A4763-HDR.JPG", "villas/cohort-02/245A4887-HDR.JPG", "villas/cohort-02/245A4896-HDR.JPG", "villas/cohort-02/245A4921-HDR.JPG",
       ],
@@ -193,10 +179,10 @@ window.__siteLoaded = (() => {
         { value: "30", label: "days" },
         { value: "9",  label: "beds" },
       ],
-      blurb: "Sixteen cracked founders living ten meters apart in Dubai, 10 minutes from the Burj Khalifa. Compute credits to ship faster, founder dinners, sponsor intros, and demo days that end in the ocean.",
+      blurb: "Sixteen cracked founders living ten meters apart in Dubai, 10 minutes from the Burj Khalifa. Founder dinners, investor conversations, and a closing Demo Day.",
     },
   ];
-  let cohortIdx = 2; // default landing cohort: Canggu, Bali (02) — the next house
+  let cohortIdx = 2; // default landing cohort: Bangkok (02) — the next house
 
   // Desktop and mobile want different camera framings for the SAME anchor:
   // on desktop the glass pane covers the left, so `cam` composes the city to
@@ -353,9 +339,8 @@ window.__siteLoaded = (() => {
   const cfg   = window.CONFIG || {};
   // The house dot pins to the cohort's `anchor` (falling back to `cam` if a
   // cohort hasn't declared one). This is INDEPENDENT of the camera framing:
-  // identical on initial load and every nav, so the dot never jumps. (The
-  // legacy cfg.FOCUS_LOCATION anchor is deliberately ignored — stale Da Nang
-  // data from the old MapKit build.)
+  // identical on initial load and every nav, so the dot never jumps. The
+  // legacy cfg.FOCUS_LOCATION anchor remains only as a runtime fallback.
   const landingCohort = COHORTS[cohortIdx];
   const landingAnchor = landingCohort.anchor || landingCohort.cam;
   const focus = { name: landingCohort.loc, lon: landingAnchor.lon, lat: landingAnchor.lat };
@@ -498,7 +483,7 @@ window.__siteLoaded = (() => {
 
   /* =========================================================
      COHORT NAV — left/right arrows on the marker box fly the
-     camera between Bangalore (00) → Da Nang (01) → Canggu, Bali (02) → Dubai (03)
+     camera between Bangalore (00) → Da Nang (01) → Bangkok (02) → Dubai (03)
      ========================================================= */
   /* Sync all per-cohort DOM (marker box, hero title/desc/actions, badge,
      apps label/range, dock dot status, expand panel) to a cohort. Runs on
@@ -521,7 +506,7 @@ window.__siteLoaded = (() => {
     // Hero title + description vary per cohort. Title is split across spans
     // (each line is its own block via `.hero__title span { display: block }`).
     // c.heroTitle accepts an optional third line `c` for cohorts that want a
-    // stat-style stack like "30 days. / 10 cracked fellows. / Bali."
+    // stat-style stack like "30 days. / 10 cracked fellows. / Bangkok."
     const heroTitleEl = document.querySelector("[data-hero-title]");
     const heroDescEl  = document.querySelector("[data-hero-desc]");
     if (heroTitleEl && c.heroTitle) {
@@ -574,63 +559,9 @@ window.__siteLoaded = (() => {
         .join("");
     }
 
-    // Sponsors — rebuild rows from c.sponsors[]. Hides the whole block
-    // (label + rows) when a cohort has no sponsors declared.
-    const sponsorsEl    = document.querySelector("[data-hero-sponsors]");
-    const sponsorsLabel = document.querySelector("[data-hero-sponsors-label]");
-    if (sponsorsEl) {
-      const list = c.sponsors || [];
-      // Clear all rows but keep the label element.
-      sponsorsEl.querySelectorAll(".hero__sponsors-row").forEach((row) => row.remove());
-
-      if (list.length === 0) {
-        sponsorsEl.style.display = "none";
-      } else {
-        sponsorsEl.style.display = "";
-        if (sponsorsLabel) sponsorsLabel.style.display = "";
-        list.forEach((s) => {
-          const row = document.createElement("span");
-          row.className = "hero__sponsors-row";
-          const tagline = document.createElement("span");
-          tagline.className = "hero__sponsors-tagline";
-          tagline.innerHTML = `${s.tagline} &mdash;`;
-          row.appendChild(tagline);
-          // A row can carry one logo (logo/alt/size/url) or several (logos[]).
-          const logos = s.logos || [{ logo: s.logo, alt: s.alt, size: s.size, url: s.url }];
-          logos.forEach((l, i) => {
-            if (i > 0) {
-              const sep = document.createElement("span");
-              sep.className = "hero__sponsor-sep";
-              sep.textContent = "|";
-              row.appendChild(sep);
-            }
-            const img = document.createElement("img");
-            const sizeCls = l.size === "sm" ? " hero__sponsor-logo--sm"
-                          : l.size === "lg" ? " hero__sponsor-logo--lg" : "";
-            img.className = "hero__sponsor-logo" + sizeCls;
-            img.src = l.logo;
-            img.alt = l.alt || "";
-            if (l.url) {
-              const link = document.createElement("a");
-              link.className = "hero__sponsor-link";
-              link.href   = l.url;
-              link.target = "_blank";
-              link.rel    = "noopener noreferrer";
-              link.setAttribute("aria-label", l.alt || s.tagline);
-              link.appendChild(img);
-              row.appendChild(link);
-            } else {
-              row.appendChild(img);
-            }
-          });
-          sponsorsEl.appendChild(row);
-        });
-      }
-    }
-
     // Bottom-dock apply CTA — static across all cohorts.
     const dockCtaEl = document.querySelector("[data-dock-cta-label]");
-    if (dockCtaEl) dockCtaEl.textContent = "Apply C2";
+    if (dockCtaEl) dockCtaEl.textContent = "Apply for 🇹🇭";
 
     // Dock dot color is driven by [data-apps-status] on body — CSS swaps
     // the dot fill + pulse halo from green (open) → red (filled) → grey (closed).
@@ -752,169 +683,154 @@ window.__siteLoaded = (() => {
   }
 
   /* =========================================================
-     COHORTS · CRACKED DEPARTURES
-     The cohorts panel as an airport. A departures board lists every
-     cohort as a flight (application status → flight state); selecting a
-     row issues a per-city portrait boarding pass (left) + a "gate"
-     details panel (right): photos, what's on board, apply. Built from
-     the COHORTS array; the main hero map is untouched.
+     COHORTS · THE RECORD
+     The cohorts panel as a photographic proof sheet. Every cohort is one
+     strip of frames off the same roll — shipped houses are exposed, houses
+     we've booked but not lived in are location scouts, and a final blank
+     strip stands in for the house after next. Selecting a strip brings it
+     up to full colour and prints its annotation underneath. Built from the
+     COHORTS array; the main hero map is untouched.
      ========================================================= */
-  const departures = (() => {
-    const STATE = {
-      closed: { board: "departed", stamp: "departed",      kind: "departed" },
-      filled: { board: "boarding", stamp: "now boarding",  kind: "boarding" },
-      open:   { board: "check-in", stamp: "check-in open", kind: "open" },
+  const record = (() => {
+    // Per-cohort sheet data: when the roll was shot, and which frame got
+    // circled in chinagraph as the keeper.
+    const SHEET = {
+      "00": { when: "jun ’25",     keeper: 2 },
+      "01": { when: "jul ’26",     keeper: 4 },
+      "02": { when: "01 oct ’26",  keeper: 1 },
+      "03": { when: "dates soon",  keeper: 2 },
     };
-    const FLIGHT = {
-      "00": { iata: "BLR", depart: "JUL '25", date: "JUN 2025",    livery: "#c2563a" }, // bangalore · terracotta
-      "01": { iata: "DAD", depart: "JUL '26", date: "01 JUL 2026", livery: "#0f8a86" }, // da nang · teal
-      "02": { iata: "DPS", depart: "SEP '26", date: "01 SEP 2026", livery: "#9b4d8f" }, // bali · orchid
-      "03": { iata: "DXB", depart: "TBA",     date: "DATES SOON",  livery: "#b8902f" }, // dubai · gold
-    };
-    const FUTURE = { flight: "CR04", city: "wherever", iata: "????", depart: "2027", board: "scheduled" };
-    const PLANE = "✈";
+    // The strip after the last booked house. Deliberately empty.
+    const PENDING = { no: "C4", city: "????", when: "not shot yet", tag: "wherever next" };
+    const FRAMES = 8;                       // frames per strip; short rolls pad blank
+    const EDGE   = "crackedhq 5063 · 30 day · safety film · ";
 
-    const boardEl = document.querySelector("[data-departures-board]");
-    const passEl  = document.querySelector("[data-pass-wrap]");
+    const rootEl   = document.querySelector("[data-record]");
+    const stripsEl = document.querySelector("[data-record-strips]");
     let entered = false;
 
-    const flightNo = (c) => "CR" + c.id;
-    const statusOf = (c) => STATE[c.apps?.status] || { board: c.apps?.label || "", stamp: "", kind: "open" };
-    const findStat = (c, re) => (c.stats || []).find((s) => re.test(s.label)) || null;
+    // 35mm half-frame counting: 1, 1A, 2, 2A …
+    const frameNo = (n) => Math.floor(n / 2) + 1 + (n % 2 ? "A" : "");
+    const isOpen  = (c) => c.apps?.status === "open";
+    const cityOf  = (c) => ((c.loc || "").split(",")[0] || "").trim();
 
-    function buildBoard() {
-      if (!boardEl) return;
-      const head = document.createElement("div");
-      head.className = "dep-row dep-row--head";
-      head.innerHTML = `<span>flight</span><span>destination</span><span>date</span><span>status</span>`;
-      boardEl.appendChild(head);
+    function framesHTML(c, keeper) {
+      let html = "";
+      for (let n = 0; n < FRAMES; n++) {
+        const src = (c.photos || [])[n];
+        // viewBox is ~the frame's own 3:2 plus the ring's overhang, so the
+        // ellipse scales near-uniformly and the stroke stays even.
+        const mark = n === keeper
+          ? `<svg class="frame__mark" viewBox="0 0 150 100" preserveAspectRatio="none" aria-hidden="true">
+               <ellipse cx="75" cy="50" rx="71" ry="46" transform="rotate(-3 75 50)"/>
+             </svg>`
+          : "";
+        html += src
+          ? `<span class="frame" style="--src:url('${src}')"><i class="frame__no">${frameNo(n)}</i>${mark}</span>`
+          : `<span class="frame frame--blank"><i class="frame__no">${frameNo(n)}</i></span>`;
+      }
+      return html;
+    }
+
+    function readHTML(c) {
+      const stats = (c.stats || []).map(
+        (s) => `<span class="strip__stat"><b>${s.value}</b><span>${s.label}</span></span>`
+      ).join("");
+      const apply = (c.actions || []).find((a) => a.href) || (c.tally ? { href: c.tally } : null);
+      const foot = isOpen(c) && apply
+        ? `<a class="strip__cta" href="${apply.href}" target="_blank" rel="noopener noreferrer">${c.ctaLabel || "take a seat"} &rarr;</a>`
+        : `<span class="strip__note">this house has wrapped</span>`;
+      return `
+        <div class="strip__read">
+          <p class="strip__blurb">${c.blurb || ""}</p>
+          <div class="strip__foot">
+            <div class="strip__stats">${stats}</div>
+            ${foot}
+          </div>
+        </div>`;
+    }
+
+    function build() {
+      if (!stripsEl) return;
 
       COHORTS.forEach((c, i) => {
-        const [city] = (c.loc || "").split(",");
-        const st = statusOf(c);
-        const f  = FLIGHT[c.id] || {};
-        const row = document.createElement("button");
-        row.type = "button";
-        row.className = `dep-row dep-row--${st.kind}`;
-        row.dataset.idx = String(i);
-        row.style.setProperty("--i", String(i + 1));
-        row.innerHTML =
-          `<span class="dep-flight">${flightNo(c)}</span>` +
-          `<span class="dep-dest">${(city || "").trim()}<i>${f.iata || ""}</i></span>` +
-          `<span class="dep-date">${f.depart || ""}</span>` +
-          `<span class="dep-status"><span class="dep-status__dot" aria-hidden="true"></span>${st.board}</span>`;
-        row.addEventListener("click", () => select(i));
-        boardEl.appendChild(row);
+        const s    = SHEET[c.id] || {};
+        const open = isOpen(c);
+        const el   = document.createElement("div");
+        el.className = `strip strip--${open ? "scout" : "exposed"}`;
+        el.dataset.idx = String(i);
+        el.style.setProperty("--i", String(i));
+        el.innerHTML =
+          `<button type="button" class="strip__tab" aria-expanded="false" aria-controls="strip-read-${c.id}">
+             <span class="strip__no">C${Number(c.id)}</span>
+             <span class="strip__id">
+               <span class="strip__city">${cityOf(c)}</span>
+               <span class="strip__when">${s.when || ""}</span>
+             </span>
+           </button>` +
+          `<div class="strip__frames" role="img" aria-label="frames from the ${cityOf(c)} house">
+             ${framesHTML(c, s.keeper ?? 2)}
+           </div>` +
+          `<span class="strip__tag${open ? " strip__tag--open" : ""}">${open ? "open" : "shipped"}</span>` +
+          readHTML(c);
+        el.querySelector(".strip__read").id = `strip-read-${c.id}`;
+        el.querySelector(".strip__tab").addEventListener("click", () => select(i));
+        stripsEl.appendChild(el);
       });
 
-      const fr = document.createElement("div");
-      fr.className = "dep-row dep-row--future";
-      fr.style.setProperty("--i", String(COHORTS.length + 1));
-      fr.innerHTML =
-        `<span class="dep-flight">${FUTURE.flight}</span>` +
-        `<span class="dep-dest">${FUTURE.city}<i>${FUTURE.iata}</i></span>` +
-        `<span class="dep-date">${FUTURE.depart}</span>` +
-        `<span class="dep-status"><span class="dep-status__dot" aria-hidden="true"></span>${FUTURE.board}</span>`;
-      boardEl.appendChild(fr);
-    }
-
-    function passHTML(c, i) {
-      const [city] = (c.loc || "").split(",").map((s) => s.trim());
-      const st = statusOf(c);
-      const f  = FLIGHT[c.id] || {};
-      const livery = f.livery || "#5a5a58";
-      const pax  = findStat(c, /cracked|founder|builder/);
-      const days = findStat(c, /day/);
-      const prev = i > 0 ? COHORTS[i - 1] : null;
-      const origIata = prev ? (FLIGHT[prev.id]?.iata || "—") : "···";
-      const origCity = prev ? ((prev.loc || "").split(",")[0] || "").trim() : "the internet";
-
-      return `
-        <article class="pass pass--${st.kind}" style="--livery:${livery}">
-          <div class="pass__top">
-            <span class="pass__label">boarding pass</span>
-            <span class="pass__status-chip">${st.stamp}</span>
-          </div>
-          <div class="pass__body">
-            <span class="pass__map" aria-hidden="true"></span>
-            <div class="pass__airline-row">
-              <span class="pass__airline"><span class="pass__plane">${PLANE}</span>cracked<b>air</b></span>
-              <span class="pass__flightno">${flightNo(c)}</span>
-            </div>
-            <div class="pass__route">
-              <span class="pass__leg"><b>${origIata}</b><small>${origCity}</small></span>
-              <span class="pass__plane2" aria-hidden="true">${PLANE}</span>
-              <span class="pass__leg pass__leg--to"><b>${f.iata || ""}</b><small>${city || ""}</small></span>
-            </div>
-            <div class="pass__grid">
-              <span class="pass__f"><small>passenger</small><b>the cracked</b></span>
-              <span class="pass__f"><small>seats</small><b>${pax ? pax.value : "—"}</b></span>
-              <span class="pass__f"><small>date</small><b>${f.date || ""}</b></span>
-              <span class="pass__f"><small>duration</small><b>${days ? days.value + " " + days.label : "—"}</b></span>
-              <span class="pass__f"><small>gate</small><b>the villa</b></span>
-              <span class="pass__f"><small>flight</small><b>${flightNo(c)}</b></span>
-            </div>
-          </div>
-          <div class="pass__tear" aria-hidden="true"></div>
-          <div class="pass__stub">
-            <div class="pass__stub-info">
-              <span class="pass__f"><small>seat</small><b>${pax ? pax.value : "—"}</b></span>
-              <span class="pass__f"><small>date</small><b>${f.depart || ""}</b></span>
-              <span class="pass__f"><small>gate</small><b>villa</b></span>
-            </div>
-            <span class="pass__barcode" aria-hidden="true"></span>
-          </div>
-        </article>`;
-    }
-
-    function gateHTML(c) {
-      const photos = (c.photos || []).slice(0, 4)
-        .map((src) => `<span class="gate__photo" style="background-image:url('${src}')"></span>`).join("");
-      const chips = (c.stats || []).map((s) => {
-        const win = /raised|made/.test(s.label);
-        return `<span class="gate__chip${win ? " gate__chip--win" : ""}"><b>${s.value}</b>${s.label}</span>`;
-      }).join("");
-      const apply = (c.actions || []).find((a) => a.href) || (c.tally ? { href: c.tally } : null);
-      const cta = c.apps?.status === "open" && apply
-        ? `<a class="gate__cta" href="${apply.href}" target="_blank" rel="noopener noreferrer">${c.ctaLabel || "check in"} &rarr;</a>`
-        : `<span class="gate__closed">${statusOf(c).kind === "departed" ? "this flight has departed" : "boarding closed · seats filled"}</span>`;
-      return `
-        <section class="gate">
-          ${photos ? `<div class="gate__photos">${photos}</div>` : ""}
-          ${chips ? `<div class="gate__chips">${chips}</div>` : ""}
-          <p class="gate__blurb">${c.blurb || ""}</p>
-          <div class="gate__foot">${cta}</div>
-        </section>`;
+      const pending = document.createElement("div");
+      pending.className = "strip strip--unexposed";
+      pending.style.setProperty("--i", String(COHORTS.length));
+      pending.innerHTML =
+        `<span class="strip__tab">
+           <span class="strip__no">${PENDING.no}</span>
+           <span class="strip__id">
+             <span class="strip__city">${PENDING.city}</span>
+             <span class="strip__when">${PENDING.when}</span>
+           </span>
+         </span>` +
+        `<div class="strip__frames" aria-hidden="true">
+           ${Array.from({ length: FRAMES }, (_, n) =>
+             `<span class="frame frame--blank"><i class="frame__no">${frameNo(n)}</i></span>`).join("")}
+         </div>` +
+        `<span class="strip__tag">${PENDING.tag}</span>`;
+      stripsEl.appendChild(pending);
     }
 
     function select(i) {
-      boardEl?.querySelectorAll(".dep-row").forEach((r) =>
-        r.classList.toggle("is-active", r.dataset.idx === String(i)));
-      if (!passEl) return;
-      passEl.innerHTML = passHTML(COHORTS[i], i) + gateHTML(COHORTS[i]);
-      const card = passEl.querySelector(".pass");
-      if (card) { card.classList.remove("is-issued"); void card.offsetWidth; card.classList.add("is-issued"); }
+      stripsEl?.querySelectorAll(".strip").forEach((el) => {
+        const on = el.dataset.idx === String(i);
+        el.classList.toggle("is-active", on);
+        el.querySelector(".strip__tab")?.setAttribute("aria-expanded", String(on));
+      });
     }
 
-    buildBoard();
+    function fillEdge() {
+      if (!rootEl) return;
+      rootEl.querySelectorAll(".record__edge").forEach((el) => {
+        el.textContent = EDGE.repeat(14);
+      });
+    }
 
+    build();
+    fillEdge();
+
+    // Default to the house you can still get into.
     const defIdx = (() => {
-      const i = COHORTS.findIndex((c) => c.apps?.status === "filled" || c.apps?.status === "open");
+      const i = COHORTS.findIndex(isOpen);
       return i >= 0 ? i : Math.max(0, COHORTS.length - 1);
     })();
 
     window.addEventListener("panel:change", (e) => {
-      if (e.detail?.name !== "cohorts") return;
-      if (!entered) {
-        entered = true;
-        boardEl?.classList.add("is-in");
-        select(defIdx);
-      }
+      if (e.detail?.name !== "cohorts" || entered) return;
+      entered = true;
+      rootEl?.classList.add("is-in");
+      select(defIdx);
     });
 
     return { select };
   })();
-  void departures;
+  void record;
 
   const prevBtn = document.querySelector("[data-cohort-prev]");
   const nextBtn = document.querySelector("[data-cohort-next]");
@@ -1488,7 +1404,7 @@ window.__siteLoaded = (() => {
   const HOUSES = {
     bangalore: { city: "Bangalore", code: "BLR", cohort: "00", dates: "06·25 → 09·25", tint: "#b2472f" },
     vietnam:   { city: "Da Nang",   code: "DAD", cohort: "01", dates: "07·26 → 08·26", tint: "#0f7d7a" },
-    bali:      { city: "Canggu",    code: "DPS", cohort: "02", dates: "09·26 → 10·26", tint: "#9b4d8f" },
+    bangkok:   { city: "Bangkok",   code: "BKK", cohort: "02", dates: "10·26 → 10·26", tint: "#9b4d8f" },
     dubai:     { city: "Dubai",     code: "DXB", cohort: "03", dates: "TBA",           tint: "#b8902f" },
   };
 
@@ -1496,12 +1412,12 @@ window.__siteLoaded = (() => {
   // creds = the labeled "why cracked" fields (k = label, v = value).
   const FELLOWS = [
     { id: "vagdev", name: "Vagdev", surname: "Korrapati", handle: "@vagdev",
-      number: "CRK · 00 · 0001", houses: ["bangalore"], photo: "fellows/BHEWwnjs_400x400.jpg",
+      number: "CRK · 00 · 0001", houses: ["bangalore"], photo: "fellows/BHEWwnjs_400x400.png",
       creds: [ { k: "builds", v: "payment rails for emerging markets" },
                { k: "shipped", v: "ex-Stripe payments infra" },
                { k: "known for", v: "the dosa-fuelled all-nighter" } ] },
     { id: "riza", name: "Riza", surname: "Aydin", handle: "@rzaydn",
-      number: "CRK · 00 · 0002", houses: ["bangalore", "vietnam"], photo: "fellows/UfGyY5_j_400x400.jpg",
+      number: "CRK · 00 · 0002", houses: ["bangalore", "vietnam"], photo: "fellows/UfGyY5_j_400x400.png",
       creds: [ { k: "builds", v: "small models that actually think" },
                { k: "shipped", v: "3 open-source eval frameworks" },
                { k: "known for", v: "running the Vietnam kitchen" } ] },
@@ -1511,7 +1427,7 @@ window.__siteLoaded = (() => {
                { k: "shipped", v: "first investor at the table" },
                { k: "known for", v: "hardware in a software house" } ] },
     { id: "kalash", name: "Kalash", surname: "Mehta", handle: "@kalashm",
-      number: "CRK · 01 · 0004", houses: ["vietnam"], photo: "fellows/90960705.jpeg",
+      number: "CRK · 01 · 0004", houses: ["vietnam"], photo: "fellows/90960705.png",
       creds: [ { k: "builds", v: "compilers · WASM & Rust" },
                { k: "shipped", v: "a working JIT in two weekends" },
                { k: "known for", v: "a keyboard in checked luggage" } ] },

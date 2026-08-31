@@ -14,14 +14,14 @@
   <link rel="icon" href="/favicon.png?v=2" />
   <script src="/analytics.js"></script>
   <title>Cracked Hackerhouse: for cracked people, wherever we go next</title>
-  <meta name="description" content="Cracked Hackerhouse — a community of cracked people living, traveling, and building together. Cohort zero in Bangalore. Next stop, Bali." />
+  <meta name="description" content="Cracked Hackerhouse Bangkok — 10 fellows, 10 private beds, and 30 days of building from October 1, 2026, ending with Demo Day." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Geist:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css?v=51" />
+  <link rel="stylesheet" href="styles.css?v=54" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" />
   <!-- phone-test harness — only active at /phone-test (private staging route).
        Drops the mobile gate and loads the in-progress mobile styles. Completely
@@ -110,12 +110,6 @@
     crackedHQ<span class="brand__dot">.</span>
   </a>
 
-  <!-- Passport entry — links into the Cracked Passport app (href resolved by
-       script.js). Fellows land on their passport; others see the sign-in gate. -->
-  <a class="passport-link" data-passport-link="/apply" aria-label="Open your Cracked Passport">
-    Passport <span class="passport-link__arrow" aria-hidden="true">→</span>
-  </a>
-
   <!-- Right-side rail of pills. Collapsed by default; the stack expands on
        hover, and each pill grows + reveals its label. Tap a pill to swap
        the visible panel underneath. -->
@@ -141,9 +135,10 @@
         </button>
       </li>
       <li>
-        <button type="button" class="rail__pill" data-panel-link="cohorts" data-disabled="true" aria-disabled="true">
+        <button type="button" class="rail__pill rail__pill--soon" data-panel-link="cohorts" data-disabled="true" aria-disabled="true">
           <span class="rail__pill-dot" aria-hidden="true"></span>
           <span class="rail__pill-label">cohorts</span>
+          <span class="rail__pill-soon" aria-label="coming soon">soon</span>
         </button>
       </li>
     </ul>
@@ -175,21 +170,25 @@
         <!-- LAYER 2: glass pane on the LEFT — copy, CTAs, fellows -->
         <div class="hero__left">
           <article class="hero__pane glass">
-            <div class="hero__cohort"><span class="hero__cohort-dot" aria-hidden="true"></span><span data-cohort-label>Cohort 2, Canggu, Bali <span class="hero__cohort-sep">|</span> <span class="hero__cohort-status hero__cohort-status--open">Applications open!</span></span></div>
+            <div class="hero__cohort"><span class="hero__cohort-dot" aria-hidden="true"></span><span data-cohort-label>Cohort 2, Bangkok, Thailand <span class="hero__cohort-sep">|</span> <span class="hero__cohort-status hero__cohort-status--open">Applications open!</span></span></div>
 
             <h1 id="panel-main-title" class="hero__title" data-hero-title>
-              <span>10 Fellows.</span>
-              <span>30 days.</span>
-              <span><em>Bali 🇮🇩.</em></span>
+              <span>10 fellows</span>
+              <span>30 days</span>
+              <span><em>Bangkok 🇹🇭</em></span>
             </h1>
 
             <p class="hero__sub" data-hero-desc>
-              Starts 1st September. One huge Canggu villa, ten cracked fellows, thirty days of shipping: good wifi, bad sleep schedules, and demo days that end in the ocean instead of a pitch deck. Compute credits, sponsor intros, scooters at the gate, and thousands in OpenAI + Anthropic grants for the builders in this house, announcing soon.
+              on weekdays: build whatever you&rsquo;re obsessed with.<br><br>
+              on weekends: YC founders + investors, AMAs, hackathons, games and Bangkok.<br><br>
+              PS5 is included.<br>
+              fun is mandatory.<br><br>
+              at the end of the month, we host Demo Day and show everyone what happened when we put 10 ambitious people in one house.
             </p>
 
             <div class="hero__actions" data-hero-actions>
               <a href="https://tally.so/r/A7yDE0" class="hero__apply" target="_blank" rel="noopener noreferrer">
-                <span>Apply C2</span>
+                <span>Apply for 🇹🇭</span>
                 <span class="hero__apply-arrow" aria-hidden="true">→</span>
               </a>
             </div>
@@ -198,9 +197,9 @@
               <span class="hero__fellows-label">The Cracked Fellows</span>
               <span class="hero__fellows-row">
                 <span class="hero__fellows-stack" aria-hidden="true">
-                  <span class="hero__fellow" style="background-image:url('fellows/90960705.jpeg')"></span>
-                  <span class="hero__fellow" style="background-image:url('fellows/BHEWwnjs_400x400.jpg')"></span>
-                  <span class="hero__fellow" style="background-image:url('fellows/UfGyY5_j_400x400.jpg')"></span>
+                  <span class="hero__fellow" style="background-image:url('fellows/90960705.png')"></span>
+                  <span class="hero__fellow" style="background-image:url('fellows/BHEWwnjs_400x400.png')"></span>
+                  <span class="hero__fellow" style="background-image:url('fellows/UfGyY5_j_400x400.png')"></span>
                   <span class="hero__fellow" style="background-image:url('fellows/yDrxSxQu_400x400.jpg')"></span>
                 </span>
                 <span class="hero__fellows-count">+30</span>
@@ -215,13 +214,6 @@
               </span>
             </div>
 
-            <div class="hero__sponsors" data-hero-sponsors>
-              <span class="hero__sponsors-label" data-hero-sponsors-label>The Sponsors</span>
-              <span class="hero__sponsors-row">
-                <span class="hero__sponsors-tagline">Thousands of OpenAI credits &mdash;</span>
-                <img class="hero__sponsor-logo" src="sponsors/openai.png" alt="OpenAI" />
-              </span>
-            </div>
           </article>
         </div>
 
@@ -237,10 +229,10 @@
               </button>
               <div class="house-marker__text">
                 <span class="house-marker__title" data-marker-title>CRACKED HACKER HOUSE</span>
-                <span class="house-marker__sub" data-marker-sub>1st September &middot; 10 Fellows &middot; 30 Days</span>
+                <span class="house-marker__sub" data-marker-sub>1st October &middot; 10 Private Beds &middot; 30 Days</span>
                 <span class="house-marker__loc">
                   <span class="house-marker__loc-dot" aria-hidden="true"></span>
-                  <span data-marker-loc>Canggu, Bali</span>
+                  <span data-marker-loc>Bangkok, Thailand</span>
                 </span>
               </div>
               <button type="button" class="house-marker__nav house-marker__nav--next" data-cohort-next aria-label="Next cohort">
@@ -317,15 +309,18 @@
     <section class="panel panel--cohorts" data-panel="cohorts" aria-labelledby="panel-cohorts-title" aria-hidden="true">
       <div class="panel__inner panel__inner--cohorts">
         <header class="panel__head panel__head--cohorts">
-          <span class="panel__eyebrow">cracked departures</span>
-          <h2 id="panel-cohorts-title" class="panel__title">three rooms. <em>one cohort at a time.</em></h2>
+          <span class="panel__eyebrow">the record</span>
+          <h2 id="panel-cohorts-title" class="panel__title">four houses so far. <em>the roll keeps going.</em></h2>
         </header>
 
-        <!-- Departures board + boarding pass. The board rows and the issued
-             pass are both built in script.js (departures) from COHORTS. -->
-        <div class="departures">
-          <div class="departures__board" data-departures-board aria-label="Cohort departures"></div>
-          <div class="boarding-pass-wrap" data-pass-wrap aria-live="polite"></div>
+        <!-- Proof sheet. Every cohort is one strip of frames off the same
+             roll: shipped houses are exposed, houses we've booked but not
+             lived in are location scouts, and the last strip is blank.
+             Strips are built in script.js (record) from COHORTS. -->
+        <div class="record" data-record>
+          <div class="record__edge record__edge--top" aria-hidden="true"></div>
+          <div class="record__strips" data-record-strips></div>
+          <div class="record__edge record__edge--bot" aria-hidden="true"></div>
         </div>
       </div>
     </section>
@@ -358,7 +353,7 @@
             <p>I dropped out of high school and started building things on the internet. I&rsquo;d already been to Network School and two other hacker houses &mdash; and everywhere I went, I found the same thing: the right people change everything.</p>
             <p>The problem was there weren&rsquo;t enough hacker houses. So I posted a tweet. It went viral. An hour later, I posted another one &mdash; announcing Cracked Hacker House Bangalore. Over 50 people applied. I selected the 10 most cracked.</p>
             <p>On 5th May 2026, ten strangers moved into a villa in Bangalore for 30 days. No curriculum, no schedule &mdash; just proximity and ambition. Two new startups were founded. Someone raised $50k. By the end of the month, the entire first batch was invited to sit down with Harshil Mathur, CEO of Razorpay.</p>
-            <p>One week into Bangalore, I&rsquo;d already announced the next house &mdash; Da Nang, Vietnam. For that cohort, Boardy, a $100M AI company, came on as a sponsor. Then Dubai. Then Bali. Each time, people who&rsquo;d never met were building things together by week one.</p>
+            <p>One week into Bangalore, I&rsquo;d already announced the next house &mdash; Da Nang, Vietnam. That house brought another group of strangers together to build side by side. Now we&rsquo;re heading to Bangkok for 30 days, with ten fellows, ten private beds, weekend AMAs, and a final Demo Day.</p>
             <p>Cracked isn&rsquo;t an accelerator. It&rsquo;s a spiderweb &mdash; designers, engineers, founders, hackers, AI builders, creators, all connected through the houses they&rsquo;ve lived in. Every cohort adds more nodes. Every city tightens the web. <em>The future is a global network of cracked people who found each other in a house.</em></p>
           </div>
         </div>
@@ -404,7 +399,7 @@
             <!-- post-it notes -->
             <div class="spy-note" style="--x:2%;--y:2%;--rot:-4deg">BLR CELL<br>ACTIVE</div>
             <div class="spy-note spy-note--pink" style="--x:31%;--y:3%;--rot:5deg">payment<br>rails → ?</div>
-            <div class="spy-note" style="--x:74%;--y:1%;--rot:-3deg">BALI<br>expand?</div>
+            <div class="spy-note" style="--x:74%;--y:1%;--rot:-3deg">BANGKOK<br>next?</div>
             <div class="spy-note spy-note--blue" style="--x:22%;--y:45%;--rot:6deg">all roads<br>lead here</div>
             <div class="spy-note" style="--x:2%;--y:76%;--rot:-5deg">WATCH<br>this one</div>
             <div class="spy-note spy-note--pink" style="--x:70%;--y:77%;--rot:4deg">why<br>compilers??</div>
@@ -449,8 +444,8 @@
             </div>
             <div class="spy-location" style="--x:44%;--y:92%">
               <span class="spy-location__dot"></span>
-              <span class="spy-location__name">BALI</span>
-              <span class="spy-location__code">DPS · 8.65°S 115.16°E</span>
+              <span class="spy-location__name">BANGKOK</span>
+              <span class="spy-location__code">BKK · 13.76°N 100.50°E</span>
             </div>
 
           </div><!-- /.spy-wall__bg -->
@@ -458,7 +453,7 @@
           <figure class="spy-photo" style="--rot:-1.8deg; --cohort-clr:#b2472f">
             <div class="spy-photo__pin" aria-hidden="true"></div>
             <div class="spy-photo__frame">
-              <div class="spy-photo__img" style="background-image:url('fellows/BHEWwnjs_400x400.jpg')"></div>
+              <div class="spy-photo__img" style="background-image:url('fellows/BHEWwnjs_400x400.png')"></div>
               <figcaption class="spy-photo__caption">
                 <span class="spy-photo__name">Vagdev Korrapati</span>
                 <span class="spy-photo__role">payment rails for emerging markets</span>
@@ -471,7 +466,7 @@
           <figure class="spy-photo" style="--rot:2.1deg; --cohort-clr:#0f7d7a">
             <div class="spy-photo__pin" aria-hidden="true"></div>
             <div class="spy-photo__frame">
-              <div class="spy-photo__img" style="background-image:url('fellows/UfGyY5_j_400x400.jpg')"></div>
+              <div class="spy-photo__img" style="background-image:url('fellows/UfGyY5_j_400x400.png')"></div>
               <figcaption class="spy-photo__caption">
                 <span class="spy-photo__name">Riza Aydin</span>
                 <span class="spy-photo__role">small models that actually think</span>
@@ -497,7 +492,7 @@
           <figure class="spy-photo" style="--rot:1.6deg; --cohort-clr:#0f7d7a">
             <div class="spy-photo__pin" aria-hidden="true"></div>
             <div class="spy-photo__frame">
-              <div class="spy-photo__img" style="background-image:url('fellows/90960705.jpeg')"></div>
+              <div class="spy-photo__img" style="background-image:url('fellows/90960705.png')"></div>
               <figcaption class="spy-photo__caption">
                 <span class="spy-photo__name">Kalash Mehta</span>
                 <span class="spy-photo__role">compilers &middot; WASM &amp; Rust</span>
@@ -564,12 +559,12 @@
     <div class="dock__left">
       <span class="dock__apps-dot" aria-hidden="true"></span>
       <span class="dock__apps-label" data-apps-label>applications open</span>
-      <span class="dock__apps-range" data-apps-range>Rolling · house starts 1st Sep</span>
+      <span class="dock__apps-range" data-apps-range>Rolling · house starts 1st Oct</span>
     </div>
 
     <div class="dock__center">
       <a class="dock__cta" href="https://tally.so/r/A7yDE0" target="_blank" rel="noopener noreferrer" data-dock-cta>
-        <span data-dock-cta-label>Apply C2</span>
+        <span data-dock-cta-label>Apply for 🇹🇭</span>
         <span class="dock__cta-arrow" aria-hidden="true">→</span>
       </a>
     </div>
@@ -598,7 +593,7 @@
   </footer>
 
   <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
-  <script src="config.js?v=1"></script>
-  <script src="script.js?v=28"></script>
+  <script src="config.js?v=2"></script>
+  <script src="script.js?v=34"></script>
 </body>
 </html>

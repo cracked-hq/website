@@ -11,8 +11,8 @@ window.CONFIG = {
   MAPBOX_TOKEN: "",
 
   FOCUS_LOCATION: {
-    name: "Da Nang",
-    lon: 108.224,
-    lat: 16.054,
+    name: "Bangkok",
+    lon: 100.5018,
+    lat: 13.7563,
   },
 };

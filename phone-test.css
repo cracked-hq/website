@@ -108,6 +108,10 @@ html.phone-test .mobile-gate { display: none !important; }
     backdrop-filter: blur(5px) saturate(120%);
     -webkit-backdrop-filter: blur(5px) saturate(120%);
   }
+  html.phone-test .hero__veil::before,
+  html.phone-test .hero__veil::after {
+    display: none;
+  }
 
   /* Copy block sits BELOW the house card and is pushed into the bottom
      half: `margin-top: auto` eats the free space when the page is taller
@@ -164,7 +168,7 @@ html.phone-test .mobile-gate { display: none !important; }
   html.phone-test .hero__apply--ghost { padding: 8px 16px; font-size: 12px; }
   html.phone-test .hero__apply-arrow { font-size: 12.5px; }
 
-  /* Fellows + sponsors: tighter, smaller type. */
+  /* Fellows: tighter, smaller type. */
   html.phone-test .hero__fellows { margin-top: 22px; }
   html.phone-test .hero__fellow { width: 30px; height: 30px; }
   html.phone-test .hero__fellow + .hero__fellow { margin-left: -10px; }
@@ -174,16 +178,6 @@ html.phone-test .mobile-gate { display: none !important; }
     margin-top: 2px;
     font-size: 11px;
   }
-  html.phone-test .hero__sponsors { margin-top: 20px; }
-  html.phone-test .hero__sponsors-tagline {
-    font-size: 12px;
-    color: #fff;
-    text-shadow: 0 1px 12px rgba(11, 11, 11, 0.55);
-  }
-  html.phone-test .hero__sponsor-logo { height: 24px; }
-  html.phone-test .hero__sponsor-logo--sm { height: 20px; }
-  html.phone-test .hero__sponsor-logo--lg { height: 42px; }
-
   /* =======================================================
      HOUSE INFO CARD
      On desktop this floats over the map and reveals its detail
@@ -317,10 +311,21 @@ html.phone-test .mobile-gate { display: none !important; }
   html.phone-test .dock__right  { display: none; }      /* socials hidden on mobile */
   html.phone-test .dock__apps-range { display: none; }  /* keep status to one line */
 
-  /* The desktop bottom blur strip is tall + heavy over the dark mobile map,
-     reading as a dark band stacked above the dock. Shrink + soften it. */
+  /* The desktop bottom strip is blur-only (no fill) — fine on desktop, where
+     content never scrolls into it. On mobile the page is a real scrolling
+     document (see .hero above), so anything can drift under the fixed dock —
+     a plain blur still lets a solid button show through almost fully legible,
+     which is how you get two "Apply" pills visually stacked. Add a real dark
+     fill under the blur, fading in toward the bottom, so the dock actually
+     masks whatever scrolls beneath it instead of just softening it. */
   html.phone-test body.page--single::after {
     height: 84px;
+    background: linear-gradient(
+      to top,
+      rgba(8, 12, 18, 0.94) 0%,
+      rgba(8, 12, 18, 0.75) 45%,
+      rgba(8, 12, 18, 0) 100%
+    );
     backdrop-filter: blur(10px) saturate(115%);
     -webkit-backdrop-filter: blur(10px) saturate(115%);
   }
